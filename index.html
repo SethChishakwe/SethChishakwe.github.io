@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSecure Zim - Cybersecurity Blog</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            text-align: center;
+            border-left: 5px solid #f59e0b;
+        }
+        
+        h1 {
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tagline {
+            color: #93c5fd;
+            font-size: 1.2rem;
+        }
+        
+        .zim-flag {
+            color: #f59e0b;
+            font-weight: bold;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 2rem;
+        }
+        
+        .main-content {
+            background: #1e293b;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+        
+        .sidebar {
+            background: #1e293b;
+            padding: 1.5rem;
+            border-radius: 10px;
+        }
+        
+        h2 {
+            color: #60a5fa;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .post {
+            background: #334155;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #10b981;
+        }
+        
+        .post-date {
+            color: #94a3b8;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .post-title {
+            color: white;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #3b82f6;
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #2563eb;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 1.5rem;
+            color: #94a3b8;
+            border-top: 1px solid #334155;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🔐 CyberSecure Zim</h1>
+        <p class="tagline">Cybersecurity education for <span class="zim-flag">Zimbabwean</span> users and businesses</p>
+        <p>By [Your Name] - First Year Cybersecurity Student</p>
+    </header>
+    
+    <div class="container">
+        <main class="main-content">
+            <h2>📚 Latest Security Tips</h2>
+            
+            <article class="post">
+                <div class="post-date">Coming Soon | May 2024</div>
+                <h3 class="post-title">3 Simple Ways Every Zimbabwean Can Protect Their EcoCash Today</h3>
+                <p>Learn practical steps to secure your mobile money transactions against common threats in Zimbabwe.</p>
+                <a href="#" class="btn">Read Article</a>
+            </article>
+            
+            <article class="post">
+                <div class="post-date">Coming Soon | June 2024</div>
+                <h3 class="post-title">How to Spot a Phishing SMS in Zimbabwe</h3>
+                <p>Real examples of scam messages targeting ZimSwitch, bank customers, and how to identify them.</p>
+                <a href="#" class="btn">Read Article</a>
+            </article>
+            
+            <article class="post">
+                <div class="post-date">Coming Soon | June 2024</div>
+                <h3 class="post-title">Basic Home Network Security for Zimbabwean Households</h3>
+                <p>Secure your home WiFi and protect your family's devices from common cyber threats.</p>
+                <a href="#" class="btn">Read Article</a>
+            </article>
+        </main>
+        
+        <aside class="sidebar">
+            <h2>👤 About Me</h2>
+            <p>First-year Cybersecurity student passionate about making digital security accessible to everyone in Zimbabwe.</p>
+            
+            <h2>🎯 Focus Areas</h2>
+            <ul>
+                <li>Local Security Awareness</li>
+                <li>Network Security</li>
+                <li>Phishing Defense</li>
+                <li>Practical Labs</li>
+            </ul>
+            
+            <h2>🔗 Connect</h2>
+            <p>GitHub: <a href="#" style="color: #60a5fa;">yourusername</a></p>
+            <p>Email: [your email]</p>
+        </aside>
+    </div>
+    
+    <footer>
+        <p>© 2024 CyberSecure Zim | Built with HTML/CSS | Zimbabwe Cybersecurity Education</p>
+        <p>Disclaimer: Educational content only. Always follow official security guidelines from your bank/service provider.</p>
+    </footer>
+</body>
+</html>
