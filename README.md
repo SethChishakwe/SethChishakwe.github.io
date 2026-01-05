@@ -3,6 +3,14 @@ Cybersecurity Portfolio & Blog
 About Me
 First-year Cybersecurity student passionate about making digital security accessible to Zimbabwean users. Documenting my learning journey through hands-on projects and educational content.
 
+📝 Recent Publications
+
+[3 Simple Ways Every Zimbabwean Can Protect Their EcoCash Today](https://sethchishakwe.github.io/2024/01/05/secure-ecocash.html)
+Practical security guide with Zimbabwe-specific examples. Covers PIN security, phishing detection, and EcoCash settings.
+
+Technologies: GitHub Pages, Jekyll, HTML/CSS, Markdown
+
+
 Focus Areas
 - Local Security Awareness: Creating content in Shona, Ndebele, and English
 - Network Security: Home lab setups and traffic analysis
