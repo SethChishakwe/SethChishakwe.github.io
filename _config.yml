@@ -3,3 +3,4 @@ description: Cybersecurity education for Zimbabwean users
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
+future: true
