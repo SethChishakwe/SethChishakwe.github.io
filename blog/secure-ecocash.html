@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Securing EcoCash | Seth Chishakwe</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="logo">SETH CHISHAKWE</a>
+            <div class="nav-links">
+                <a href="../index.html#home">Home</a>
+                <a href="../index.html#articles">Articles</a>
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#contact">Contact</a>
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Article Header -->
+    <header class="article-header">
+        <div class="container">
+            <div class="article-meta">
+                <a href="../index.html#articles" class="back-link">
+                    <i class="fas fa-arrow-left"></i> Back to Articles
+                </a>
+                <div class="article-date">JANUARY 5, 2026</div>
+                <div class="article-category">MOBILE SECURITY</div>
+            </div>
+            <h1 class="article-title">Securing EcoCash: A Practical Guide for Zimbabwean Users</h1>
+            <p class="article-subtitle">How to protect your mobile money from common threats in Zimbabwe</p>
+            <div class="article-tags">
+                <span class="tag">EcoCash</span>
+                <span class="tag">Mobile Security</span>
+                <span class="tag">Zimbabwe</span>
+                <span class="tag">Phishing</span>
+                <span class="tag">FinTech</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Article Content -->
+    <article class="article-content">
+        <div class="container">
+            <div class="content-grid">
+                <div class="content-main">
+                    <!-- Introduction -->
+                    <section class="content-section">
+                        <h2>Why EcoCash Security Matters</h2>
+                        <p>With over 11 million users and handling billions in transactions monthly, EcoCash isn't just a convenience—it's a critical part of Zimbabwe's financial infrastructure. Unfortunately, this popularity makes it a prime target for cybercriminals.</p>
+                        <p>Protecting your mobile money isn't just about securing funds; it's about safeguarding your entire financial identity in the digital age.</p>
+                    </section>
+
+                    <!-- Common Scams -->
+                    <section class="content-section">
+                        <h2>Common EcoCash Scams in Zimbabwe</h2>
+                        <p>Before we get to solutions, let's understand what we're up against:</p>
+                        
+                        <div class="info-card danger">
+                            <h3><i class="fas fa-exclamation-triangle"></i> Phishing SMS/WhatsApp</h3>
+                            <p>"Your EcoCash wallet is suspended. Send PIN to restore."</p>
+                        </div>
+                        
+                        <div class="info-card warning">
+                            <h3><i class="fas fa-phone-slash"></i> Fake Customer Care</h3>
+                            <p>Callers pretending to be from Econet asking for your PIN.</p>
+                        </div>
+                        
+                        <div class="info-card danger">
+                            <h3><i class="fas fa-sim-card"></i> SIM Swap Fraud</h3>
+                            <p>Criminals getting a duplicate SIM to access your EcoCash.</p>
+                        </div>
+                        
+                        <div class="info-card warning">
+                            <h3><i class="fas fa-eye"></i> Shoulder Surfing</h3>
+                            <p>People watching you enter your PIN at POS terminals.</p>
+                        </div>
+                    </section>
+
+                    <!-- PIN Security -->
+                    <section class="content-section">
+                        <h2>1. Create a STRONG, UNIQUE EcoCash PIN</h2>
+                        <p><strong>The Problem:</strong> Research shows 30% of Zimbabweans use their phone unlock PIN for everything.</p>
+                        
+                        <div class="comparison">
+                            <div class="dont-box">
+                                <h3><i class="fas fa-times-circle"></i> DON'T USE:</h3>
+                                <ul>
+                                    <li>1234 or 0000</li>
+                                    <li>Your birth year (1999, 2000)</li>
+                                    <li>Repeated digits (1111, 2222)</li>
+                                    <li>Phone unlock PIN</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="do-box">
+                                <h3><i class="fas fa-check-circle"></i> DO THIS:</h3>
+                                <ul>
+                                    <li>Create a random 5-6 digit number</li>
+                                    <li>Mix it up: e.g., 48263 (not a pattern)</li>
+                                    <li>Change it every 3 months</li>
+                                    <li>Never write it down with your phone</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="tip-card">
+                            <h3><i class="fas fa-lightbulb"></i> Pro Tip: PIN Sentence Method</h3>
+                            <p>Example: "My son Tawanda was born in 2020" = Mstwbi2020 = numbers from that = 420 (then add random digits to make 5-6 digits).</p>
+                        </div>
+                    </section>
+
+                    <!-- Never Share PIN -->
+                    <section class="content-section">
+                        <h2>2. NEVER Share Your PIN via SMS, Call, or WhatsApp</h2>
+                        
+                        <div class="scam-example">
+                            <h3><i class="fas fa-sms"></i> SMS Example:</h3>
+                            <div class="message-box">
+                                <p>"Dear Customer, your EcoCash wallet has temporary restrictions. Reply with PIN for verification. From: E-CONET Support"</p>
+                            </div>
+                        </div>
+                        
+                        <div class="scam-example">
+                            <h3><i class="fas fa-phone"></i> Call Example:</h3>
+                            <div class="message-box">
+                                <p>"Hello, I'm from Econet technical department. We're upgrading systems and need your PIN to secure your account."</p>
+                            </div>
+                        </div>
+                        
+                        <div class="important-card">
+                            <h3><i class="fas fa-shield-alt"></i> How to Respond:</h3>
+                            <ul>
+                                <li><strong>LEGITIMATE COMPANIES NEVER ASK FOR YOUR PIN</strong></li>
+                                <li>Hang up immediately</li>
+                                <li>Save the number and report to Econet (111)</li>
+                                <li>Forward scam SMS to Econet's fraud department</li>
+                                <li>If concerned, visit an OFFICIAL Econet shop (don't call back!)</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- Security Features -->
+                    <section class="content-section">
+                        <h2>3. Enable ALL Security Features</h2>
+                        <p>Most people only use basic EcoCash. Turn these ON:</p>
+                        
+                        <table class="security-table">
+                            <thead>
+                                <tr>
+                                    <th>Feature</th>
+                                    <th>How to Enable</th>
+                                    <th>Why It Helps</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Transaction Alerts</strong></td>
+                                    <td>Settings → Notifications → ALL Alerts</td>
+                                    <td>Know immediately if unauthorized transaction occurs</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Daily Limit</strong></td>
+                                    <td>Set limit to your average daily spend</td>
+                                    <td>Limits damage if compromised</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Withdrawal PIN</strong></td>
+                                    <td>Different from main PIN for cash-out</td>
+                                    <td>Extra layer at POS/agents</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Biometric</strong></td>
+                                    <td>If phone supports fingerprint/face ID</td>
+                                    <td>Prevents unauthorized app access</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <div class="steps-card">
+                            <h3><i class="fas fa-mobile-alt"></i> To enable these:</h3>
+                            <ol>
+                                <li>Dial <code>*150#</code></li>
+                                <li>Go to "My EcoCash" → "Settings"</li>
+                                <li>Enable everything in "Security Settings"</li>
+                            </ol>
+                        </div>
+                    </section>
+
+                    <!-- Case Study -->
+                    <section class="content-section">
+                        <h2>Real Zimbabwean Case Study</h2>
+                        
+                        <div class="case-study">
+                            <h3><i class="fas fa-user"></i> Scenario:</h3>
+                            <p>Fiona from Harare received this WhatsApp:</p>
+                            <div class="whatsapp-message">
+                                <p>"Good morning customer. Your EcoCash line is due for KYC update. Please send your PIN and ID number for verification. Reply STOP to opt out."</p>
+                            </div>
+                            
+                            <h3><i class="fas fa-flag"></i> Red Flags Fiona spotted:</h3>
+                            <ul>
+                                <li>Urgent language ("due for update")</li>
+                                <li>Requests PIN via WhatsApp (Econet never does this)</li>
+                                <li>Poor grammar ("line is due")</li>
+                                <li>No official Econet logo or verified badge</li>
+                            </ul>
+                            
+                            <h3><i class="fas fa-check-double"></i> What Fiona did RIGHT:</h3>
+                            <ul>
+                                <li>Screenshotted the message</li>
+                                <li>Did NOT reply</li>
+                                <li>Reported to Econet via 111</li>
+                                <li>Shared warning in family WhatsApp group</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- Checklist -->
+                    <section class="content-section">
+                        <h2>Your 5-Minute EcoCash Security Check</h2>
+                        <p>Take action RIGHT NOW:</p>
+                        
+                        <div class="checklist">
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Change your PIN if it's weak or shared with other services</span>
+                            </label>
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Enable transaction notifications</span>
+                            </label>
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Set a daily transaction limit</span>
+                            </label>
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Save Econet fraud number: 111</span>
+                            </label>
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Educate one family member about these scams</span>
+                            </label>
+                        </div>
+                    </section>
+
+                    <!-- Shona Translation -->
+                    <section class="content-section">
+                        <h2><i class="fas fa-language"></i> Shona Translation (Kuchengetedza EcoCash Yako)</h2>
+                        
+                        <div class="translation">
+                            <p><strong>Zvakakosha:</strong> Usambofa wakapa PIN yako kune chero munhu. Econet HAIMBOKUMBIRI PIN yako nerunhare, SMS, kana WhatsApp. Kana uchinge wagamuchira mashoko ekukumbira PIN, ibvisa uye nhare 111.</p>
+                            
+                            <h3>Matanho ari nyore:</h3>
+                            <ol>
+                                <li>Shandisa PIN yakasimba isina kumboshandiswa</li>
+                                <li>Gonesa ziviso dzose dzekutenga</li>
+                                <li>Isa muganho wezuva nezuva</li>
+                            </ol>
+                        </div>
+                    </section>
+
+                    <!-- Emergency Steps -->
+                    <section class="content-section">
+                        <h2><i class="fas fa-exclamation-triangle"></i> Emergency Steps If Compromised</h2>
+                        
+                        <div class="emergency-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h3>IMMEDIATELY</h3>
+                                    <p>Dial <code>*150#</code> and change PIN</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h3>CALL</h3>
+                                    <p>Econet 111 (free from any network)</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h3>VISIT</h3>
+                                    <p>Nearest Econet shop with ID</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h3>REPORT</h3>
+                                    <p>Police Cybercrime Unit (if money lost)</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">5</div>
+                                <div class="step-content">
+                                    <h3>MONITOR</h3>
+                                    <p>Check transaction history daily</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Conclusion -->
+                    <section class="content-section">
+                        <h2>About This Series</h2>
+                        <p>This is the first post in my "Cybersecurity for Zimbabweans" series. Next week: <strong>"How to Spot Phishing Emails Targeting Zimbabwean Businesses"</strong> where we'll analyze real scam emails and build a detection checklist.</p>
+                        
+                        <div class="callout">
+                            <p><strong>📢 Share this with someone who needs it!</strong> Most cybercrime prevention is about awareness. By sharing this knowledge, you're helping build a more secure Zimbabwe.</p>
+                            <p class="signature">Stay secure, Zimbabwe!</p>
+                        </div>
+                        
+                        <div class="disclaimer">
+                            <p><em>Disclaimer: This is educational content. Always follow official guidelines from Econet and your financial institution. I'm not affiliated with Econet or Cassava Smartech.</em></p>
+                        </div>
+                    </section>
+
+                    <!-- Navigation -->
+                    <div class="article-navigation">
+                        <a href="../index.html#articles" class="nav-link">
+                            <i class="fas fa-arrow-left"></i>
+                            <span>Back to Articles</span>
+                        </a>
+                        <a href="#" class="nav-link disabled">
+                            <span>Next Article</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="content-sidebar">
+                    <div class="sidebar-widget">
+                        <h3>About the Author</h3>
+                        <div class="author-info">
+                            <p><strong>Seth Chishakwe</strong></p>
+                            <p>First-year cybersecurity student focused on practical security solutions for Zimbabwean users.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-widget">
+                        <h3>Article Details</h3>
+                        <div class="article-details">
+                            <p><i class="far fa-calendar"></i> <strong>Published:</strong> January 5, 2026</p>
+                            <p><i class="far fa-clock"></i> <strong>Reading Time:</strong> 7 minutes</p>
+                            <p><i class="fas fa-tags"></i> <strong>Topics:</strong> Mobile Security, Zimbabwe, FinTech</p>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-widget">
+                        <h3>Share This Article</h3>
+                        <div class="share-buttons">
+                            <a href="#" class="share-btn"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="share-btn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="share-btn"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="share-btn"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-widget">
+                        <h3>Upcoming Articles</h3>
+                        <div class="upcoming-list">
+                            <a href="#" class="upcoming-item">
+                                <h4>Phishing SMS Detection</h4>
+                                <p>Spotting scam messages in Zimbabwe</p>
+                            </a>
+                            <a href="#" class="upcoming-item">
+                                <h4>Home Network Security</h4>
+                                <p>Protecting your WiFi in Zimbabwe</p>
+                            </a>
+                            <a href="#" class="upcoming-item">
+                                <h4>OSINT for Businesses</h4>
+                                <p>What hackers can learn about your company</p>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">SETH CHISHAKWE</div>
+                <p class="footer-tagline">Cybersecurity Education for Zimbabwe</p>
+                <div class="footer-links">
+                    <a href="../index.html#home">Home</a>
+                    <a href="../index.html#articles">Articles</a>
+                    <a href="../index.html#projects">Projects</a>
+                    <a href="../index.html#about">About</a>
+                    <a href="../index.html#contact">Contact</a>
+                </div>
+                <p class="footer-copyright">
+                    © 2026 Seth Chishakwe. All rights reserved. | 
+                    Built with focus on Zimbabwean cybersecurity.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
