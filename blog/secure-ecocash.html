@@ -48,6 +48,13 @@
                 <span class="tag">Phishing</span>
                 <span class="tag">FinTech</span>
             </div>
+            
+            <!-- Language Toggle -->
+            <div class="language-toggle">
+                <button class="lang-btn active" data-lang="en">English</button>
+                <button class="lang-btn" data-lang="sn">Shona</button>
+                <button class="lang-btn" data-lang="nd">Ndebele</button>
+            </div>
         </div>
     </header>
 
@@ -56,15 +63,29 @@
         <div class="container">
             <div class="content-grid">
                 <div class="content-main">
-                    <!-- Introduction -->
-                    <section class="content-section">
+                    <!-- Introduction - English -->
+                    <section class="content-section lang-section en">
                         <h2>Why EcoCash Security Matters</h2>
                         <p>With over 11 million users and handling billions in transactions monthly, EcoCash isn't just a convenience—it's a critical part of Zimbabwe's financial infrastructure. Unfortunately, this popularity makes it a prime target for cybercriminals.</p>
                         <p>Protecting your mobile money isn't just about securing funds; it's about safeguarding your entire financial identity in the digital age.</p>
                     </section>
+                    
+                    <!-- Introduction - Shona -->
+                    <section class="content-section lang-section sn" style="display: none;">
+                        <h2>Zvakakosha nei Kuchengetedza EcoCash</h2>
+                        <p>Iine vashandisi vanopfuura mamiriyoni gumi nerimwe uye ichibata mabhiriyoni mukutengeserana pamwedzi, EcoCash haisi nyore chete - chikamu chakakosha chehurongwa hwemari hweZimbabwe. Nehurombo, mukurumbira uyu unoiita chinangwa chikuru chevapambi veinternet.</p>
+                        <p>Kuchengetedza mari yako yefoni haingori nezve kuchengetedza mari; ndezve kuchengetedza huzivi hwako hwese hwemari munguva yedhijitari.</p>
+                    </section>
+                    
+                    <!-- Introduction - Ndebele -->
+                    <section class="content-section lang-section nd" style="display: none;">
+                        <h2>Kubaluleka Kokuqaphela kwe-EcoCash</h2>
+                        <p>Ine abasebenzisi abangaphezu kwezigidi eziyishumi nanye futhi iphatha izingxenyezana zemali eziyizigidi eziyizinkulungwane zansuku zonke, i-EcoCash ayilula kuphela - iyingxenye ebalulekile yenhlaka yezezimali yaseZimbabwe. Ngeshwa, udumo lwayo luyenza ibe yinhloso eyinhloko yamakhaladi e-cyber.</p>
+                        <p>Ukuvikela imali yakho yeselula akuphathelene nokuvikela imali kuphela; kuphathelene nokuvikela wonke umazisi wakho wezezimali kungenhla yedijithali.</p>
+                    </section>
 
-                    <!-- Common Scams -->
-                    <section class="content-section">
+                    <!-- Common Scams - English -->
+                    <section class="content-section lang-section en">
                         <h2>Common EcoCash Scams in Zimbabwe</h2>
                         <p>Before we get to solutions, let's understand what we're up against:</p>
                         
@@ -88,9 +109,61 @@
                             <p>People watching you enter your PIN at POS terminals.</p>
                         </div>
                     </section>
+                    
+                    <!-- Common Scams - Shona -->
+                    <section class="content-section lang-section sn" style="display: none;">
+                        <h2>Zvitsotsi zveEcoCash zvakajairika muZimbabwe</h2>
+                        <p>Tisati tasvika pamhinduro, ngationei zvatinosangana nazvo:</p>
+                        
+                        <div class="info-card danger">
+                            <h3><i class="fas fa-exclamation-triangle"></i> Phishing SMS/WhatsApp</h3>
+                            <p>"Wallet yako yeEcoCash yakamiswa. Tumira PIN kudzorera."</p>
+                        </div>
+                        
+                        <div class="info-card warning">
+                            <h3><i class="fas fa-phone-slash"></i> Customer Care Yenhema</h3>
+                            <p>Vanodana vachinyepera kuti vanobva kuEconet vachikumbira PIN yako.</p>
+                        </div>
+                        
+                        <div class="info-card danger">
+                            <h3><i class="fas fa-sim-card"></i> SIM Swap Fraud</h3>
+                            <p>Matsotsi anowana duplicate SIM kuti awane EcoCash yako.</p>
+                        </div>
+                        
+                        <div class="info-card warning">
+                            <h3><i class="fas fa-eye"></i> Shoulder Surfing</h3>
+                            <p>Vanhu vanokuona uchipinza PIN yako paPOS terminals.</p>
+                        </div>
+                    </section>
+                    
+                    <!-- Common Scams - Ndebele -->
+                    <section class="content-section lang-section nd" style="display: none;">
+                        <h2>Amakhwabanisa e-EcoCash Avamele kubo eZimbabwe</h2>
+                        <p>Singakafiki ezisombululweni, ake siqonde esisondelene naso:</p>
+                        
+                        <div class="info-card danger">
+                            <h3><i class="fas fa-exclamation-triangle"></i> I-Phishing SMS/WhatsApp</h3>
+                            <p>"I-wallet yakho ye-EcoCash imiswe. Thumela i-PIN ukuze ubuyisele."</p>
+                        </div>
+                        
+                        <div class="info-card warning">
+                            <h3><i class="fas fa-phone-slash"></i> I-Fake Customer Care</h3>
+                            <p>Abaceli abazibonakalisa bengabase-Econet becela i-PIN yakho.</p>
+                        </div>
+                        
+                        <div class="info-card danger">
+                            <h3><i class="fas fa-sim-card"></i> I-SIM Swap Fraud</h3>
+                            <p>Amasela athola i-SIM ephindwe kabili ukuze afinyelele kwi-EcoCash yakho.</p>
+                        </div>
+                        
+                        <div class="info-card warning">
+                            <h3><i class="fas fa-eye"></i> I-Shoulder Surfing</h3>
+                            <p>Abantu abakubuka usafaka i-PIN yakho kuma-POS terminals.</p>
+                        </div>
+                    </section>
 
-                    <!-- PIN Security -->
-                    <section class="content-section">
+                    <!-- PIN Security - English -->
+                    <section class="content-section lang-section en">
                         <h2>1. Create a STRONG, UNIQUE EcoCash PIN</h2>
                         <p><strong>The Problem:</strong> Research shows 30% of Zimbabweans use their phone unlock PIN for everything.</p>
                         
@@ -121,9 +194,75 @@
                             <p>Example: "My son Tawanda was born in 2020" = Mstwbi2020 = numbers from that = 420 (then add random digits to make 5-6 digits).</p>
                         </div>
                     </section>
+                    
+                    <!-- PIN Security - Shona -->
+                    <section class="content-section lang-section sn" style="display: none;">
+                        <h2>1. Gadzira PIN yeEcoCash YAKASIMBA, YAKASIYANA</h2>
+                        <p><strong>Dambudziko:</strong> Tsvagurudzo inoratidza kuti 30% yevaZimbabwe vanoshandisa PIN yavo yekuvhura foni pazvinhu zvese.</p>
+                        
+                        <div class="comparison">
+                            <div class="dont-box">
+                                <h3><i class="fas fa-times-circle"></i> USA SHANDISE:</h3>
+                                <ul>
+                                    <li>1234 kana 0000</li>
+                                    <li>Gore rekuzvarwa rako (1999, 2000)</li>
+                                    <li>Manhamba akadzokororwa (1111, 2222)</li>
+                                    <li>PIN yekuvhura foni</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="do-box">
+                                <h3><i class="fas fa-check-circle"></i> ITA IZVI:</h3>
+                                <ul>
+                                    <li>Gadzira nhamba isina kurongeka ine 5-6 manhamba</li>
+                                    <li>Sakanidza: semuenzaniso, 48263 (kwete patani)</li>
+                                    <li>Shandura pamwedzi mitatu</li>
+                                    <li>Usambofa wakanyora pasi nefoni yako</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="tip-card">
+                            <h3><i class="fas fa-lightbulb"></i> Zano rehunyanzvi: Nzira yePIN Sentence</h3>
+                            <p>Muenzaniso: "Mwanakomana wangu Tawanda akazvarwa muna 2020" = Mstwbi2020 = manhamba kubva ipapo = 420 (wozowedzera manhamba asina kurongeka kuti aite 5-6 manhamba).</p>
+                        </div>
+                    </section>
+                    
+                    <!-- PIN Security - Ndebele -->
+                    <section class="content-section lang-section nd" style="display: none;">
+                        <h2>1. Yenza i-PIN ye-EcoCash EQINILE, EYINGQAYIZIVELE</h2>
+                        <p><strong>Inkinga:</strong> Ucwaningo lubonisa ukuthi ama-30% abaseZimbabwe asebenzisa i-PIN yabo yokuvula ifoni kuzo zonke izinto.</p>
+                        
+                        <div class="comparison">
+                            <div class="dont-box">
+                                <h3><i class="fas fa-times-circle"></i> UNGAZE WASEBENZISE:</h3>
+                                <ul>
+                                    <li>1234 noma 0000</li>
+                                    <li>Unyaka wokuzalwa kwakho (1999, 2000)</li>
+                                    <li>Amadijithi aphindwe (1111, 2222)</li>
+                                    <li>I-PIN yokuvula ifoni</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="do-box">
+                                <h3><i class="fas fa-check-circle"></i> YENZA LOKHU:</h3>
+                                <ul>
+                                    <li>Yenza inombolo engahleliwe enamadijithi ama-5-6</li>
+                                    <li>Yixube: isibonelo, 48263 (hhayi iphethini)</li>
+                                    <li>Yishintshe njalo ezinyangeni ezintathu</li>
+                                    <li>Ungaze wayibhala phansi nefoni yakho</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="tip-card">
+                            <h3><i class="fas fa-lightbulb"></i> Ithiphu Yobungcweti: Indlela ye-PIN Sentence</h3>
+                            <p>Isibonelo: "Indodana yami uTawanda wazalwa ngo-2020" = Mstwbi2020 = izinombolo ezivela lapho = 420 (bese ungeza amadijithi angahleliwe ukuze enze amadijithi ama-5-6).</p>
+                        </div>
+                    </section>
 
-                    <!-- Never Share PIN -->
-                    <section class="content-section">
+                    <!-- Never Share PIN - English -->
+                    <section class="content-section lang-section en">
                         <h2>2. NEVER Share Your PIN via SMS, Call, or WhatsApp</h2>
                         
                         <div class="scam-example">
@@ -151,9 +290,69 @@
                             </ul>
                         </div>
                     </section>
+                    
+                    <!-- Never Share PIN - Shona -->
+                    <section class="content-section lang-section sn" style="display: none;">
+                        <h2>2. USAMBOFA WAKAPA PIN YAKO neSMS, Runhare, kana WhatsApp</h2>
+                        
+                        <div class="scam-example">
+                            <h3><i class="fas fa-sms"></i> Muenzaniso weSMS:</h3>
+                            <div class="message-box">
+                                <p>"Dear Customer, wallet yako yeEcoCash ine zvirambidzo zvenguva pfupi. Reply nePIN yekuongorora. From: E-CONET Support"</p>
+                            </div>
+                        </div>
+                        
+                        <div class="scam-example">
+                            <h3><i class="fas fa-phone"></i> Muenzaniso weRunhare:</h3>
+                            <div class="message-box">
+                                <p>"Hello, ndinobva kuEconet technical department. Tiri kuvandudza masystem uye tinoda PIN yako kuchengetedza account yako."</p>
+                            </div>
+                        </div>
+                        
+                        <div class="important-card">
+                            <h3><i class="fas fa-shield-alt"></i> Maitiro Ekupindura:</h3>
+                            <ul>
+                                <li><strong>MAKAMBANI ECHOKWADI HAAMBO KUMBIRA PIN YAKO</strong></li>
+                                <li>Dimbura runhare pakarepo</li>
+                                <li>Chengetedza nhamba woita report kuEconet (111)</li>
+                                <li>Forward scam SMS kubazi rehutsotsi reEconet</li>
+                                <li>Kana uine hanya, enda kuEconet shop chaiyo (usafona zvakare!)</li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!-- Never Share PIN - Ndebele -->
+                    <section class="content-section lang-section nd" style="display: none;">
+                        <h2>2. UNGAZE WANIKAZE I-PIN YAKHO nge-SMS, Ucingo, noma i-WhatsApp</h2>
+                        
+                        <div class="scam-example">
+                            <h3><i class="fas fa-sms"></i> Isibonelo se-SMS:</h3>
+                            <div class="message-box">
+                                <p>"Dear Customer, i-wallet yakho ye-EcoCash inemikhawulo yesikhashana. Phendula nge-PIN yokuqinisekisa. Kusuka: E-CONET Support"</p>
+                            </div>
+                        </div>
+                        
+                        <div class="scam-example">
+                            <h3><i class="fas fa-phone"></i> Isibonelo sokuCinga:</h3>
+                            <div class="message-box">
+                                <p>"Hello, ngivela emnyangweni wezobuchwepheshe be-Econet. Sithuthukisa izinhlelo futhi sidinga i-PIN yakho ukuze sivikele i-akhawunti yakho."</p>
+                            </div>
+                        </div>
+                        
+                        <div class="important-card">
+                            <h3><i class="fas fa-shield-alt"></i> Indlela Yokuphendula:</h3>
+                            <ul>
+                                <li><strong>IZINKAMPANI EZISEMTHETHWENI AZISOZE ZAKUCELE I-PIN YAKHO</strong></li>
+                                <li>Lenga ucingo ngokushesha</li>
+                                <li>Londoloza inombolo bese ubika ku-Econet (111)</li>
+                                <li>Thumela i-SMS yamakhwabanisa emnyangweni we-Econet wamakhwabanisa</li>
+                                <li>Uma unokhathazeka, vakashele isitolo se-Econet ESISEMTHETHWENI (ungabuyi ucinge!)</li>
+                            </ul>
+                        </div>
+                    </section>
 
-                    <!-- Security Features -->
-                    <section class="content-section">
+                    <!-- Security Features - English -->
+                    <section class="content-section lang-section en">
                         <h2>3. Enable ALL Security Features</h2>
                         <p>Most people only use basic EcoCash. Turn these ON:</p>
                         
@@ -198,38 +397,103 @@
                             </ol>
                         </div>
                     </section>
-
-                    <!-- Case Study -->
-                    <section class="content-section">
-                        <h2>Real Zimbabwean Case Study</h2>
+                    
+                    <!-- Security Features - Shona -->
+                    <section class="content-section lang-section sn" style="display: none;">
+                        <h2>3. Gonesa Zvese Zvekuchengetedza</h2>
+                        <p>Vanhu vazhinji vanongoshandisa EcoCash yakakosha chete. Vhura izvi:</p>
                         
-                        <div class="case-study">
-                            <h3><i class="fas fa-user"></i> Scenario:</h3>
-                            <p>Fiona from Harare received this WhatsApp:</p>
-                            <div class="whatsapp-message">
-                                <p>"Good morning customer. Your EcoCash line is due for KYC update. Please send your PIN and ID number for verification. Reply STOP to opt out."</p>
-                            </div>
-                            
-                            <h3><i class="fas fa-flag"></i> Red Flags Fiona spotted:</h3>
-                            <ul>
-                                <li>Urgent language ("due for update")</li>
-                                <li>Requests PIN via WhatsApp (Econet never does this)</li>
-                                <li>Poor grammar ("line is due")</li>
-                                <li>No official Econet logo or verified badge</li>
-                            </ul>
-                            
-                            <h3><i class="fas fa-check-double"></i> What Fiona did RIGHT:</h3>
-                            <ul>
-                                <li>Screenshotted the message</li>
-                                <li>Did NOT reply</li>
-                                <li>Reported to Econet via 111</li>
-                                <li>Shared warning in family WhatsApp group</li>
-                            </ul>
+                        <table class="security-table">
+                            <thead>
+                                <tr>
+                                    <th>Feature</th>
+                                    <th>Maitiro Ekuvhura</th>
+                                    <th>Sei Zvinobatsira</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Transaction Alerts</strong></td>
+                                    <td>Settings → Notifications → ALL Alerts</td>
+                                    <td>Ziva pakarepo kana transaction isina mvumo ikaitika</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Daily Limit</strong></td>
+                                    <td>Set limit kusvika paavareji yekushandisa kwako kwemazuva ese</td>
+                                    <td>Inoderedza kukuvadzwa kana yakanganisika</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Withdrawal PIN</strong></td>
+                                    <td>Yakasiyana nePIN huru yekubvisa mari</td>
+                                    <td>Imwe nhanho paPOS/agents</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Biometric</strong></td>
+                                    <td>Kana foni ichitsigira fingerprint/face ID</td>
+                                    <td>Inodzivirira kupinda muapp zvisiri zvemvumo</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <div class="steps-card">
+                            <h3><i class="fas fa-mobile-alt"></i> Kuvhura izvi:</h3>
+                            <ol>
+                                <li>Dhara <code>*150#</code></li>
+                                <li>Enda ku "My EcoCash" → "Settings"</li>
+                                <li>Gonesa zvese mu "Security Settings"</li>
+                            </ol>
+                        </div>
+                    </section>
+                    
+                    <!-- Security Features - Ndebele -->
+                    <section class="content-section lang-section nd" style="display: none;">
+                        <h2>3. Vula ZONKE Izici Zokuphepha</h2>
+                        <p>Abantu abaningi basebenzisa i-EcoCash eyisisekelo kuphela. Vula lezi:</p>
+                        
+                        <table class="security-table">
+                            <thead>
+                                <tr>
+                                    <th>Isici</th>
+                                    <th>Indlela Yokuvula</th>
+                                    <th>Kungani Kuyasiza</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Izaziso Zokuthengiselana</strong></td>
+                                    <td>Izilungiselelo → Izaziso → ZONKE Izaziso</td>
+                                    <td>Yazi ngokushesha uma ukuthengiselana okungagunyaziwe kwenzeka</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Umkhawulo Wansuku Zonke</strong></td>
+                                    <td>Setha umkhawulo ukuze ufinyelele esilinganisweni sakho sokusebenzisa nsuku zonke</td>
+                                    <td>Yenza umonakalo ube mncane uma sekukhona ukungaphephe</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>I-PIN Yokukhipha</strong></td>
+                                    <td>Ehlukile kwi-PIN enkulu yokukhipha imali</td>
+                                    <td>Isendlalelo esengeziwe kuma-POS/abenzeli</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>I-Biometric</strong></td>
+                                    <td>Uma ifoni isekela i-fingerprint/face ID</td>
+                                    <td>Ivimbela ukufinyelela kwe-app okungagunyaziwe</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <div class="steps-card">
+                            <h3><i class="fas fa-mobile-alt"></i> Ukuvula lezi:</h3>
+                            <ol>
+                                <li>Shayela u-<code>*150#</code></li>
+                                <li>Yiya ku- "My EcoCash" → "Izilungiselelo"</li>
+                                <li>Vula konke ku- "Izilungiselelo Zokuphepha"</li>
+                            </ol>
                         </div>
                     </section>
 
-                    <!-- Checklist -->
-                    <section class="content-section">
+                    <!-- Checklist - English -->
+                    <section class="content-section lang-section en">
                         <h2>Your 5-Minute EcoCash Security Check</h2>
                         <p>Take action RIGHT NOW:</p>
                         
@@ -256,6 +520,64 @@
                             </label>
                         </div>
                     </section>
+                    
+                    <!-- Checklist - Shona -->
+                    <section class="content-section lang-section sn" style="display: none;">
+                        <h2>Yako 5-Minute EcoCash Security Check</h2>
+                        <p>Tora matanho IZVI ZVINO:</p>
+                        
+                        <div class="checklist">
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Shandura PIN yako kana isina simba kana kugovaniswa nemamwe masevhisi</span>
+                            </label>
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Gonesa ziviso dzekutengeserana</span>
+                            </label>
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Seta muganho wekutengeserana wemazuva ese</span>
+                            </label>
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Chengetedza nhamba yeEconet yehutsotsi: 111</span>
+                            </label>
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Dzidzisa imwe nhengo yemhuri nezvetsotsi idzi</span>
+                            </label>
+                        </div>
+                    </section>
+                    
+                    <!-- Checklist - Ndebele -->
+                    <section class="content-section lang-section nd" style="display: none;">
+                        <h2>Ukuhlola Kwakho Kwe-EcoCash Kwemizuzu emi-5</h2>
+                        <p>Thatha izinyathelo MANJE:</p>
+                        
+                        <div class="checklist">
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Shintsha i-PIN yakho uma ingenamandla noma iyabelwana ngezinye izinsizakalo</span>
+                            </label>
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Vula izaziso zokuthengiselana</span>
+                            </label>
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Setha umkhawulo wokuthengiselana wansuku zonke</span>
+                            </label>
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Londoloza inombolo ye-Econet yamakhomini: 111</span>
+                            </label>
+                            <label class="check-item">
+                                <input type="checkbox">
+                                <span>Fundisa omunye womndeni wakho ngalokhu kukhwabanisa</span>
+                            </label>
+                        </div>
+                    </section>
 
                     <!-- Shona Translation -->
                     <section class="content-section">
@@ -273,8 +595,54 @@
                         </div>
                     </section>
 
-                    <!-- Emergency Steps -->
+                    <!-- Ndebele Translation -->
                     <section class="content-section">
+                        <h2><i class="fas fa-language"></i> Ndebele Translation (Ukuvikelwa kwe-EcoCash Yakho)</h2>
+                        
+                        <div class="translation">
+                            <p><strong>Okubalulekile:</strong> Ungaze wanikeza i-PIN yakho kunoma ngubani. I-Econet AYISOZE yakucele i-PIN yakho ngezingcingo, i-SMS, noma i-WhatsApp. Uma uthola umlayezo ocela i-PIN, uyisule bese ushayela u-111.</p>
+                            
+                            <h3>Izinyathelo ezilula:</h3>
+                            <ol>
+                                <li>Sebenzisa i-PIN eqinile engakaze isetshenziswe</li>
+                                <li>Vula zonke izaziso zokuthengiselana</li>
+                                <li>Beka umkhawulo wansuku zonke</li>
+                            </ol>
+                            
+                            <h3>Amagama abalulekile:</h3>
+                            <div class="vocabulary-table">
+                                <table>
+                                    <tr>
+                                        <td><strong>I-PIN</strong></td>
+                                        <td>Inombolo yokuvikela yemfihlo</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Ukuphishing</strong></td>
+                                        <td>Ukukhwabanisa ngezingcingo</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>I-SIM swap</strong></td>
+                                        <td>Ukushintshwa kwe-SIM okungekho emthethweni</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Isaziso</strong></td>
+                                        <td>Isaziso/umlayezo</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>I-EcoCash</strong></td>
+                                        <td>Imali yeselula</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Ukuvikela</strong></td>
+                                        <td>Ukuvikelwa/kuphepha</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Emergency Steps - English -->
+                    <section class="content-section lang-section en">
                         <h2><i class="fas fa-exclamation-triangle"></i> Emergency Steps If Compromised</h2>
                         
                         <div class="emergency-steps">
@@ -315,9 +683,95 @@
                             </div>
                         </div>
                     </section>
+                    
+                    <!-- Emergency Steps - Shona -->
+                    <section class="content-section lang-section sn" style="display: none;">
+                        <h2><i class="fas fa-exclamation-triangle"></i> Matanho Echimbi Kana Yatadziswa</h2>
+                        
+                        <div class="emergency-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h3>PAKAREPO</h3>
+                                    <p>Dhara <code>*150#</code> uye shandura PIN</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h3>FONERA</h3>
+                                    <p>Econet 111 (mahara kubva kunetiweki ipi neipi)</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h3>ENDA</h3>
+                                    <p>Econet shop iri padyo neID</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h3>ITA REPORT</h3>
+                                    <p>Police Cybercrime Unit (kana mari yarasika)</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">5</div>
+                                <div class="step-content">
+                                    <h3>TARISA</h3>
+                                    <p>Tarisa nhoroondo yekutengeserana zuva nezuva</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Emergency Steps - Ndebele -->
+                    <section class="content-section lang-section nd" style="display: none;">
+                        <h2><i class="fas fa-exclamation-triangle"></i> Izinyathelo Eziphuthumayo Uma I-EcoCash Yakho Iphangiwe</h2>
+                        
+                        <div class="emergency-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h3>NGOKUPHUTHUMA</h3>
+                                    <p>Shayela u-<code>*150#</code> bese ushintsha i-PIN</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h3>SHAYELA</h3>
+                                    <p>Econet 111 (amahhala avela kunoma iyiphi inethiwekhi)</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h3>VAKASHELA</h3>
+                                    <p>Isitolo se-Econet esiseduze ne-ID</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h3>BIKA</h3>
+                                    <p>I-Unit Yobugebengu be-Cyber yamaphoyisa (uma imali ilahlekile)</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">5</div>
+                                <div class="step-content">
+                                    <h3>QAPHELA</h3>
+                                    <p>Hlola umlando wokuthengiselana nsuku zonke</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
 
                     <!-- Conclusion -->
-                    <section class="content-section">
+                    <section class="content-section lang-section en">
                         <h2>About This Series</h2>
                         <p>This is the first post in my "Cybersecurity for Zimbabweans" series. Next week: <strong>"How to Spot Phishing Emails Targeting Zimbabwean Businesses"</strong> where we'll analyze real scam emails and build a detection checklist.</p>
                         
@@ -328,6 +782,36 @@
                         
                         <div class="disclaimer">
                             <p><em>Disclaimer: This is educational content. Always follow official guidelines from Econet and your financial institution. I'm not affiliated with Econet or Cassava Smartech.</em></p>
+                        </div>
+                    </section>
+                    
+                    <!-- Conclusion - Shona -->
+                    <section class="content-section lang-section sn" style="display: none;">
+                        <h2>Nezveiyi Series</h2>
+                        <p>Iyi ndiyo post yekutanga mu "Cybersecurity yevaZimbabwe" series yangu. Svondo rinouya: <strong>"Maitiro Ekuona Phishing Emails Anonangana Nemabhizinesi eZimbabwe"</strong> uko tichaongorora maemail echitsotsi chaiwo tovaka detection checklist.</p>
+                        
+                        <div class="callout">
+                            <p><strong>📢 Goverana izvi nemunhu anazvidi!</strong> Kudzivirira hutsotsi hweinternet kunonyanya kuve nezvekuziva. Nekugoverana ruzivo urwu, urikubatsira kuvaka Zimbabwe yakachengetedzeka.</p>
+                            <p class="signature">Ramba wakachengeteka, Zimbabwe!</p>
+                        </div>
+                        
+                        <div class="disclaimer">
+                            <p><em>Disclaimer: Izvi zvinyorwa zvekudzidzisa. Gara uchitevedzera nhungamiro dzepamutemo kubva kuEconet uye sangano rako rezvemari. Handina hukama neEconet kana Cassava Smartech.</em></p>
+                        </div>
+                    </section>
+                    
+                    <!-- Conclusion - Ndebele -->
+                    <section class="content-section lang-section nd" style="display: none;">
+                        <h2>Ngalolu Chungechunge</h2>
+                        <p>Lena iposi yokuqala ochungechungeni lwami lwe- "I-Cybersecurity yabaseZimbabwe". Iviki elizayo: <strong>"Indlela Yokubona Ama-Phishing Email Ahlose Amabhizinisi aseZimbabwe"</strong> lapho sizohlaziya ama-email amakhwabanisa angempela bese sakha i-detection checklist.</p>
+                        
+                        <div class="callout">
+                            <p><strong>📢 Yabelana nalokhu nomuntu okudingayo!</strong> Ukuvimbela ubugebengu be-cyber kumayelana nokwaziswa. Ngokwabelana ngolwazi, usiza ekwakheni i-Zimbabwe ephephile kakhulu.</p>
+                            <p class="signature">Hlala uphephile, Zimbabwe!</p>
+                        </div>
+                        
+                        <div class="disclaimer">
+                            <p><em>Disclaimer: Lokhu kungokuqukethwe kokufundisa. Hlala ulandela iziqondiso ezisemthethweni ezivela ku-Econet kanye nenhlangano yakho yezimali. Angihlangene ne-Econet noma i-Cassava Smartech.</em></p>
                         </div>
                     </section>
 
@@ -350,7 +834,7 @@
                         <h3>About the Author</h3>
                         <div class="author-info">
                             <p><strong>Seth Chishakwe</strong></p>
-                            <p>First-year cybersecurity student focused on practical security solutions for Zimbabwean users.</p>
+                            <p>First-year cybersecurity student focused on practical security solutions for Zimbabwean users. Content available in English, Shona, and Ndebele.</p>
                         </div>
                     </div>
                     
@@ -359,6 +843,7 @@
                         <div class="article-details">
                             <p><i class="far fa-calendar"></i> <strong>Published:</strong> January 5, 2026</p>
                             <p><i class="far fa-clock"></i> <strong>Reading Time:</strong> 7 minutes</p>
+                            <p><i class="fas fa-language"></i> <strong>Languages:</strong> English, Shona, Ndebele</p>
                             <p><i class="fas fa-tags"></i> <strong>Topics:</strong> Mobile Security, Zimbabwe, FinTech</p>
                         </div>
                     </div>
@@ -366,11 +851,12 @@
                     <div class="sidebar-widget">
                         <h3>Share This Article</h3>
                         <div class="share-buttons">
-                            <a href="#" class="share-btn"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="share-btn"><i class="fab fa-linkedin"></i></a>
-                            <a href="#" class="share-btn"><i class="fab fa-whatsapp"></i></a>
-                            <a href="#" class="share-btn"><i class="fas fa-link"></i></a>
+                            <a href="#" class="share-btn twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="share-btn linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="share-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="share-btn copy-link"><i class="fas fa-link"></i></a>
                         </div>
+                        <p class="share-hint" id="copy-message" style="display: none; color: var(--terminal-green); font-size: 0.9rem; margin-top: 10px;">Link copied to clipboard!</p>
                     </div>
                     
                     <div class="sidebar-widget">
@@ -400,7 +886,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">SETH CHISHAKWE</div>
-                <p class="footer-tagline">Cybersecurity Education for Zimbabwe</p>
+                <p class="footer-tagline">Cybersecurity Education for Zimbabwe | Available in English, Shona & Ndebele</p>
                 <div class="footer-links">
                     <a href="../index.html#home">Home</a>
                     <a href="../index.html#articles">Articles</a>
@@ -410,7 +896,7 @@
                 </div>
                 <p class="footer-copyright">
                     © 2026 Seth Chishakwe. All rights reserved. | 
-                    Built with focus on Zimbabwean cybersecurity.
+                    Trilingual cybersecurity content for Zimbabwe.
                 </p>
             </div>
         </div>
