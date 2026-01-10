@@ -52,6 +52,45 @@
     max-width: 800px;
 }
 
+/* Language Toggle */
+.language-toggle {
+    display: flex;
+    gap: 10px;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.lang-btn {
+    padding: 10px 24px;
+    background-color: var(--gray-800);
+    color: var(--gray-300);
+    border: 1px solid var(--gray-700);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+}
+
+.lang-btn:hover {
+    background-color: var(--gray-700);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+.lang-btn.active {
+    background-color: var(--white);
+    color: var(--black);
+    border-color: var(--white);
+}
+
+/* Language Sections */
+.lang-section {
+    transition: opacity 0.3s ease;
+}
+
 /* Article Content */
 .article-content {
     padding: 60px 0;
@@ -332,7 +371,7 @@
     accent-color: var(--terminal-green);
 }
 
-/* Translation */
+/* Translation Sections */
 .translation {
     background-color: var(--gray-900);
     border-radius: 8px;
@@ -354,6 +393,40 @@
 
 .translation li {
     padding: 8px 0;
+}
+
+/* Vocabulary Table */
+.vocabulary-table {
+    margin-top: 1.5rem;
+    overflow-x: auto;
+}
+
+.vocabulary-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--gray-800);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.vocabulary-table tr {
+    border-bottom: 1px solid var(--gray-700);
+}
+
+.vocabulary-table tr:last-child {
+    border-bottom: none;
+}
+
+.vocabulary-table td {
+    padding: 15px;
+    color: var(--gray-300);
+}
+
+.vocabulary-table td:first-child {
+    font-weight: 600;
+    color: var(--white);
+    width: 40%;
+    border-right: 1px solid var(--gray-700);
 }
 
 /* Emergency Steps */
@@ -521,6 +594,10 @@
     transform: translateY(-2px);
 }
 
+.share-hint {
+    transition: all 0.3s;
+}
+
 .upcoming-list {
     display: flex;
     flex-direction: column;
@@ -578,6 +655,15 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 1rem;
+    }
+    
+    .language-toggle {
+        justify-content: center;
+    }
+    
+    .lang-btn {
+        padding: 8px 16px;
+        font-size: 0.8rem;
     }
     
     .security-table {
