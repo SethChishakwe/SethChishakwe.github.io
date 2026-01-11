@@ -7,7 +7,7 @@ First-year Cybersecurity student passionate about making digital security access
 
 [3 Simple Ways Every Zimbabwean Can Protect Their EcoCash Today](https://sethchishakwe.github.io/2024/01/05/secure-ecocash.html)
 Practical security guide with Zimbabwe-specific examples. Covers PIN security, phishing detection, and EcoCash settings.
-
+(now features trilingual support)
 Technologies: GitHub Pages, Jekyll, HTML/CSS, Markdown
 
 
